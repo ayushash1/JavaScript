@@ -1,5 +1,6 @@
 console.log("var let and const : what is usage and differance")
-
+const author = "Ayush";
+// cnost cant be changed nor update
 // var is initial old way of declaring variavbles 
 var a = 1;
 // var b = "ayush";
@@ -22,3 +23,5 @@ console.log(b)
 // let can be updated but not re-declared
 // const can neither be updated nor be re-declared
 // var should'nt be used much in code
+// var variables are initialized with undesigned wheras let and const are not initialized
+// const must be initialized during declaration otherwise it'll throw erro
