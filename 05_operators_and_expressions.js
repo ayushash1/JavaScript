@@ -29,3 +29,26 @@ assingnment += 5;
 console.log(assingnment)
 
 // 03. Comaparism Operator
+// ==, !=, ===, !==, >, <, >=, <=, ?
+
+let comp1 = 6;
+let comp2 = 7;
+console.log("comp1==comp2",comp1==comp2)
+console.log("comp1!=comp2",comp1!=comp2)
+console.log("comp1===comp2",comp1===comp2)
+console.log("comp1!==comp2",comp1!==comp2)
+console.log("comp1>comp2",comp1>comp2)
+
+// 04. Logical Operator
+// &&(logical and), ||(logical or), !(logical not)
+// logical operators operates on boolian
+
+let x = 5;
+let y = 6;
+console.log(x<y && x==5)
+console.log(x>y || x==5)
+
+// single line comment
+/*
+multi line comment 
+*/
